@@ -1,0 +1,2 @@
+docker build -t crypto-price-app . 
+docker run -it --rm -p8501:8501 --name crypto-price-app crypto-price-app
